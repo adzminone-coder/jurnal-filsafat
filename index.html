@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Al-Musyarakah: Jurnal Ekonomi Islam</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--nav:#203a56;--accent:#e74c3c;}
+    *{box-sizing:border-box;font-family:Montserrat;}
+    body{margin:0;color:#222;background:#fff}
+
+    /* HEADER */
+    .site-header{
+      background:var(--nav);
+      color:#fff;
+      padding:35px 40px;
+      display:flex;
+      align-items:center;
+      gap:20px;
+    }
+    .logo-wrap{
+      width:115px;height:115px;background:#fff;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;overflow:hidden;
+    }
+    .logo-wrap img{width:100%;height:100%;object-fit:cover;}
+    .site-title{font-size:50px;font-weight:900;line-height:1;}
+
+    /* NAV */
+    .nav{background:#26445d;padding:12px 24px;}
+    .nav .menu{display:flex;gap:20px;}
+    .nav a{text-decoration:none;color:#d7eaf8;}
+
+    /* LAYOUT */
+    .container{display:grid;grid-template-columns:1fr 320px;gap:25px;padding:35px 40px;}
+    .hero-intro{display:flex;gap:20px;align-items:flex-start;}
+    .intro-text{flex:1;}
+    .intro-text p{line-height:1.6;}
+
+    .cover{width:220px;}
+    .cover img{width:100%;border-radius:8px;}
+
+    /* ARTICLES */
+    h2.section{font-size:32px;margin-top:20px;}
+    .article{padding:20px 0;border-bottom:1px solid #eee;}
+    .article h3{text-transform:uppercase;font-size:20px;margin:0 0 5px;}
+    .pdf-btn{
+      background:var(--accent);color:#fff;text-decoration:none;
+      padding:10px 14px;border-radius:6px;font-weight:700;
+      display:inline-block;
+    }
+
+    /* SIDEBAR */
+    .widget{background:#fff;border:1px solid #eee;padding:16px;border-radius:8px;margin-bottom:20px;}
+    .menu-stack{display:flex;flex-direction:column;gap:10px;}
+    .menu-btn{
+      padding:10px;border-radius:8px;
+      background:#2f4c67;color:#fff;text-align:center;text-decoration:none;
+    }
+
+    /* PDF PREVIEW */
+    .pdf-embed{border:1px solid #ddd;margin-top:20px;height:600px;}
+    .pdf-embed iframe{width:100%;height:100%;border:0;}
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo-wrap">
+      <img src="header.png" alt="logo">
+    </div>
+    <div>
+      <div class="site-title">Al-Musyarakah:<br>Jurnal Ekonomi Islam</div>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="menu">
+      <a href="#">Journals</a>
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+      <a href="#">Current</a>
+      <a href="#">Archives</a>
+      <a href="#">Search</a>
+      <a href="#">About</a>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <div class="container">
+
+    <main class="main">
+
+      <!-- INTRO -->
+      <section class="hero-intro">
+        <div class="intro-text">
+          <h1>Al Musyarakah: Jurnal Ekonomi Islam</h1>
+          <p>
+            Al Musyarakah: Jurnal Ekonomi Islam adalah jurnal akademik peer-review yang diterbitkan dua kali setahun, dengan edisi terbit setiap bulan April dan Oktober. Jurnal ini menyediakan platform dinamis untuk diseminasi penelitian dan artikel ilmiah lintas disiplin ilmu, dengan penekanan khusus pada bidang-bidang seperti ekonomi Islam, kewirausahaan Islam, manajemen dan perbankan Islam, etika bisnis Islam, manajemen investasi Islam, manajemen risiko di bank Islam, manajemen dana bank Islam, akuntansi Islam, penganggaran bank Islam, manajemen zakat, dan pasar modal Islam. Dengan mencakup topik-topik ini, Al Musyarakah: Jurnal Ekonomi Islam berupaya berkontribusi pada pengembangan teori ekonomi Islam dan aplikasinya di dunia nyata, menawarkan wawasan berharga bagi akademisi, praktisi, dan pembuat kebijakan.
+          </p>
+          <p>
+            <strong>Email:</strong> faiuic@yahoo.com<br>
+            <strong>Editor-in-Chief:</strong> Dr. Retna Dwi Estunintygas<br>
+            <strong>Contact:</strong> +62 823-1248-1112
+          </p>
+        </div>
+
+        <!-- COVER IMAGE -->
+        <aside class="cover">
+          <img src="cover.jpg" alt="cover">
+        </aside>
+      </section>
+
+      <!-- ARTICLES -->
+      <h2 class="section">Current Issue</h2>
+
+      <div class="article">
+        <h3>ANALISIS KRITIS TERHADAP TEORI EKONOMI MODERN DALAM 
+PERSPEKTIF FILSAFAT EKONOMI ISLAM </h3>
+        <div class="meta">Ahmad Raffi Nugroho1, Al Farouq Sina2, Andhika Galih Ramadhani3, Gilang Syahananta 
+Putra4, Habib Nur Muhammad Arafat5, Rizky Virlean Ramadhani6, Tahsin Nur Kafabillah7</div>
+        <a class="pdf-btn" href="artikel.pdf" target="_blank">PDF</a>
+      </div>
+
+      <h2 class="section">Preview PDF</h2>
+
+      <div class="pdf-embed">
+        <iframe src="artikel.pdf"></iframe>
+      </div>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <div class="widget">
+        <h4>ISSN</h4>
+        <img src="issn.png" style="width:100%;">
+        <img src="turnitin.png" style="width:100%;">
+        <img src="temlate-word.png" style="width:100%;">
+
+      </div>
+
+      <div class="widget">
+        <h4>MENU</h4>
+        <div class="menu-stack">
+          <a class="menu-btn">Editorial Team</a>
+          <a class="menu-btn">Reviewers List</a>
+          <a class="menu-btn">Focus & Scope</a>
+          <a class="menu-btn">Publication Ethics</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+</body>
+</html>
